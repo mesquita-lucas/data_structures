@@ -1,3 +1,12 @@
+/*
+1 - O valor de uma lista ordenada se dá na sua própria ordenação. Apesar da inserção e remoção ser O(N), podemos acessar seus 
+elementos através do índice, portanto, em tempo constante. A busca binária também se torna possível, levando a buscas em O(log n)
+
+2 - A estratégia que usei para aumentar o tamanho da memória foi utilizar um realloc, localizado direto na função de inserção.
+Sempre que chega ao limite, adiciona mais 10.
+
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "ordered_list.h"
