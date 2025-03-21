@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "l2cmn.h": "c",
+        "stdbool.h": "c",
+        "linked_list.h": "c",
+        "stdatomic.h": "c"
+    },
+    "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/gcc.exe"
+}
